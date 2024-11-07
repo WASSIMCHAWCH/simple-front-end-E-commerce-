@@ -1,0 +1,307 @@
+body{
+    background-color: rgba(255, 0, 157, 0.121) ;
+}
+
+
+.navbar {
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    font-size: larger;
+    background-color:  rgba(255, 0, 157, 0.121) ;
+    transition: all 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    background-color:rgba(255, 0, 157, 0.121); 
+    color: #ffffff; 
+    border-radius: 100px;
+    box-shadow: #e91e63;
+}
+
+.navbar:hover {
+    background-color: #f1f1f1; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.btn {
+    background-color: rgb(78, 192, 207);
+    border-color:  rgb(78, 192, 207); ;
+}
+
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; 
+    transition: color 0.2s;
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #9d00ff;
+}
+
+.dropdown-menu {
+    background-color: rgb(234, 206, 26); 
+    border: none;
+}
+
+.dropdown-item {
+    color: #000000;
+}
+
+.dropdown-item:hover {
+    background-color: #e6248eb0;
+    color:  rgb(234, 206, 26); 
+}
+
+
+.card_cyto{
+
+    .section {
+        background-color: #f8f9fa;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+    }
+        
+    .section-title {
+        color: #e91e63;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .section-title-2 {
+        color: #0d6efd;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    p, li {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .image-section img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+.card-localisation {
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .section-title {
+        color: #007bff;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .contact-section {
+        color: #e91e63;
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contact-text {
+        color: #ff4081;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .contact-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .btn-custom {
+        background-color: #007bff;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .map-container {
+        height: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    @media (min-width: 992px) {
+        .location-card {
+            max-width: 100%;
+            margin: 0;
+        }
+    }
+}
+
+
+
+
+
+
+.product .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling */
+.product .card-img-top {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s;
+}
+
+.product .card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+/* Text Styling */
+.product .card-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.product .card-body .card-text {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 10px 0 20px;
+}
+
+.product .card-body h5 {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Button styling */
+.product .btn-primary {
+    background-color: #0069d9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .product .card-img-top {
+        height: 150px;
+    }
+
+    .product .card-body h5 {
+        font-size: 1rem;
+    }
+
+    .product .card-body .card-text {
+        font-size: 0.85rem;
+    }
+}
+
+.btn:hover {
+    background-color:rgba(255, 0, 149, 0.774);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Background styling for the contact section */
+.contact {
+    background-image: url('src/labo.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: top;
+    padding: 50px 0;
+}
+
+/* Form container styling */
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form title */
+.contact-form-container h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form labels */
+.contact-form-container .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form inputs and text area */
+.contact-form-container .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Submit button styling */
+.contact-form-container .btn-primary {
+    background-color: #0069d9;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.contact-form-container .btn-primary:hover {
+    background-color:rgba(255, 0, 149, 0.774);
+}
