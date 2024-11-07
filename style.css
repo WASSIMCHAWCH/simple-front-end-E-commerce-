@@ -164,7 +164,6 @@ body{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Image styling */
 .product .card-img-top {
     height: 350px;
     object-fit: cover;
@@ -176,7 +175,6 @@ body{
     transform: scale(1.05);
 }
 
-/* Text Styling */
 .product .card-body {
     text-align: center;
     padding: 20px;
@@ -196,7 +194,6 @@ body{
     letter-spacing: 1px;
 }
 
-/* Button styling */
 .product .btn-primary {
     background-color: #0069d9;
     border: none;
@@ -208,7 +205,6 @@ body{
 
 
 
-/* Responsivité */
 @media (max-width: 768px) {
     .product .card-img-top {
         height: 150px;
@@ -234,22 +230,13 @@ body{
 
 
 
-
-
-
-
-
-
-
-/* Background styling for the contact section */
 .contact {
-    background-image: url('src/labo.jpg'); /* Replace with your background image path */
+    background-image: url('src/labo.jpg'); 
     background-size: cover;
     background-position: top;
     padding: 50px 0;
 }
 
-/* Form container styling */
 .contact-form-container {
     max-width: 600px;
     margin: 0 auto;
@@ -259,7 +246,6 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Form title */
 .contact-form-container h2 {
     font-size: 1.8rem;
     font-weight: bold;
@@ -268,13 +254,11 @@ body{
     margin-bottom: 20px;
 }
 
-/* Form labels */
 .contact-form-container .form-label {
     font-weight: bold;
     color: #333;
 }
 
-/* Form inputs and text area */
 .contact-form-container .form-control {
     border-radius: 5px;
     margin-bottom: 15px;
@@ -283,7 +267,6 @@ body{
     font-size: 1rem;
 }
 
-/* Submit button styling */
 .contact-form-container .btn-primary {
     background-color: #0069d9;
     border: none;
