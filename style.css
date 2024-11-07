@@ -62,90 +62,83 @@ body{
 }
 
 
-.card_cyto{
+.card_cyto .section {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
 
-    .section {
-        background-color: #f8f9fa;
-        padding: 40px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin-bottom: 30px;
-    }
-        
-    .section-title {
-        color: #e91e63;
-        font-weight: bold;
-        font-size: 1.5rem;
-    }
-    
-    .section-title-2 {
-        color: #0d6efd;
-        font-weight: bold;
-        font-size: 1.5rem;
-    }
+.card_cyto .section-title {
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 
-    p, li {
-        font-size: 1rem;
-        line-height: 1.5;
-    }
-    
-    .image-section img {
-        width: 100%;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+.card_cyto .section-title-2 {
+    color: #0d6efd;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card_cyto p,
+.card_cyto li {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card_cyto .image-section img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
-.card-localisation {
-    body {
-        font-family: Arial, sans-serif;
-    }
 
-    .section-title {
-        color: #007bff;
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
+.card-localisation .section-title {
+    color: #007bff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
-    .contact-section {
-        color: #e91e63;
-        font-size: 1.8rem;
-        font-weight: bold;
-        margin-top: 20px;
-        text-align: center;
-    }
+.card-localisation .contact-section {
+    color: #e91e63;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
 
-    .contact-text {
-        color: #ff4081;
-        font-size: 1rem;
-        text-align: center;
-        margin-top: -10px;
-    }
+.card-localisation .contact-text {
+    color: #ff4081;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -10px;
+}
 
-    .contact-btn {
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
+.card-localisation .contact-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
 
-    .btn-custom {
-        background-color: #007bff;
-        color: #fff;
-        font-weight: bold;
-    }
+.card-localisation .btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
 
-    .map-container {
-        height: 300px;
-        border-radius: 10px;
-        overflow: hidden;
-    }
+.card-localisation .map-container {
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
-    @media (min-width: 992px) {
-        .location-card {
-            max-width: 100%;
-            margin: 0;
-        }
+@media (min-width: 992px) {
+    .card-localisation .location-card {
+        max-width: 100%;
+        margin: 0;
     }
 }
 
